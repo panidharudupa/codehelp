@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+
+       <style>
+        table, tr,td,th {
+          border: 1px solid black;
+          border-collapse: collapse;
+
+           /* center aligen tag */
+          text-align: center;
+
+          /* caption bottom */
+          caption-side: bottom;
+        }
+       </style>
+</head>
+<body>
+   <!-- <table>
+    <tr>
+
+      <- span tag ->
+
+      <th colspan="2"> Month </th>
+      <th>Amount</th>
+    </tr>
+    <tr>
+      <th>Jan</th>
+      <td  rowspan="2" colspan="2">100</td>
+    </tr>
+    <tr>
+      <th rowspan="3">Feb</th>
+   
+    </tr>
+    <tr>
+    <td>March<td>
+      <td>300</td>
+    </tr>
+    <tr>
+      
+      <td>600</td>
+    </tr>
+   </table> -->
+
+   <table>
+
+    <caption>The first table</caption>
+
+    <!-- colspan -->
+
+        <tr>
+          <td colspan="2">abcd</td>
+          <!-- <td>abcd</td> -->
+          <td>abcd</td>
+        </tr>
+
+
+        <!-- rowspan -->
+
+        <tr>
+          <td>abcd</td>
+          <td rowspan="3">abcd</td>
+          <td>abcd</td>
+        </tr>
+        <tr>
+          <td>abcd</td>
+          <!-- <td>abcd</td> -->
+          <td>abcd</td>
+        </tr>
+        <tr>
+          <td>abcd</td>
+          <!-- <td>abcd</td> -->
+          <td>abcd</td>
+        </tr>
+        <tr>
+          <td>abcd</td>
+          <td>abcd</td>
+          <td>abcd</td>
+        </tr>
+
+        <!-- colspan + rowspan -->
+
+        <tr>
+          <td>abcd</td>
+          <td colspan="2" rowspan="2">pqr</td>
+          <!-- <td>bcde</td> -->
+        </tr>
+        <tr>
+          <td>abcd</td>
+          <!-- <td>hnm</td>
+          <td>xyz</td> -->
+        </tr>
+   </table>
+
+   <br><br><br><br>
+   <table>
+
+    <!-- column group to  color the table -> colgroup tag
+   
+          <col span="1" style="background-color:aqua">
+          <col span="1" style="background-color:greenyellow">
+          <col span="1" style="background-color:red">
+          <col span="1" style="background-color:blueviolet">
+   </colgroup>
+   </colgroup>
+    -->
+   
+   
+   
+   <tr>
+          <td rowspan="2">State of health</td>
+          <td colspan="2">fasting value</td>
+          <!-- <td></td> -->
+          <td>after eating</td>
+   </tr>
+   <tr>
+          <!-- <td></td> -->
+          <td>minimum</td>
+          <td>maximum</td>
+          <td>after 2hr eating</td>
+   </tr>
+   <tr>
+          <td>healthy</td>
+          <td>70</td>
+          <td>100</td>
+          <td>less than 140</td>
+   </tr>
+   <tr>
+          <td>pre diabetic</td>
+          <td>101</td>
+          <td>126</td>
+          <td>140-200</td>
+   </tr>
+   <tr>
+          <td>diabites</td>
+          <td>more than 126</td>
+          <td>NA</td>
+          <td>morw the 200</td>
+   </tr>
+          </table>
+          <br><br><br><br><br>
+
+   <table>
+
+    <!-- column group to  color the table -> colgroup tag -->
+   <colgroup>
+          <col span="1" style="background-color:aqua">
+          <col span="1" style="background-color:greenyellow">
+          <col span="1" style="background-color:red">
+          <!-- <col span="1" style="background-color:blueviolet"> -->
+
+          <!-- hide the data : visibility collapse -->
+          <col span="1" style="visibility: collapse;">
+        </colgroup>
+   
+   
+   <tr>
+          <td rowspan="2">State of health</td>
+          <td colspan="2">fasting value</td>
+          <!-- <td></td> -->
+          <td>after eating</td>
+   </tr>
+   <tr>
+          <!-- <td></td> -->
+          <td>minimum</td>
+          <td>maximum</td>
+          <td>after 2hr eating</td>
+   </tr>
+   <tr>
+          <td>healthy</td>
+          <td>70</td>
+          <td>100</td>
+          <td>less than 140</td>
+   </tr>
+   <tr>
+          <td>pre diabetic</td>
+          <td>101</td>
+          <td>126</td>
+          <td>140-200</td>
+   </tr>
+   <tr>
+          <td>diabites</td>
+          <td>more than 126</td>
+          <td>NA</td>
+          <td>morw the 200</td>
+   </tr>
+          </table>
+
+         
+
+</body>
+</html>
